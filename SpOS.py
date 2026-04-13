@@ -342,7 +342,7 @@ type_text(f"\n{GREEN}{BOLD}{BLINK}Carga completa. Iniciando sistema...{RESET}", 
 print("\n")
 
 # Ruta al archivo de música (ajusta según tu sistema)
-MUSIC_FILE = "https://raw.githubusercontent.com/bizancio11/SpOS/main/09.Revolve (R Mix).mp3"#os.path.join(os.path.dirname(__file__), "09. Revolve (R Mix).mp3") # Asegúrate de tener este archivo en el mismo directorio
+MUSIC_FILE = os.path.join(os.path.dirname(__file__), "09. Revolve (R Mix).mp3") # Asegúrate de tener este archivo en el mismo directorio
   # Cambia a tu archivo: .mp3, .wav, .ogg
 
 def play_background_music():
